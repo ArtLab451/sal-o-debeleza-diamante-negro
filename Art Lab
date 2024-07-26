@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão de Beleza Diamante Negro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logotipo Salão de Beleza Diamante Negro">
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Bem-vinda ao Salão de Beleza Diamante Negro</h1>
+        <p>Transforme-se em uma versão mais brilhante e confiante de você mesma!</p>
+    </section>
+    
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Corte e Penteados</li>
+            <li>Coloração</li>
+            <li>Manicure e Pedicure</li>
+            <li>Tratamentos Faciais</li>
+            <li>Massagens</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <!-- Adicione imagens aqui -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Ou ligue para nós: +244 933640945, +244 924615649, +244 930187759</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Salão de Beleza Diamante Negro. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#services {
+    background-color: #fff;
+    color: #000;
+}
+
+#gallery {
+    background-color: #f4f4f4;
+}
+
+#contact {
+    background-color: #000;
+    color: #fff;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    background-color: #d4af37;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
